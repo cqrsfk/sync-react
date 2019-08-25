@@ -1,0 +1,49 @@
+{
+  "name": "sync-react",
+  "version": "1.0.0",
+  "description": "data synchronize for react",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "ava",
+    "build": "tsc"
+  },
+  "ava": {
+    "compileEnhancements": false,
+    "extensions": [
+      "ts",
+      "tsx"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cqrsfk/sync-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cqrsfk/sync-react/issues"
+  },
+  "homepage": "https://github.com/cqrsfk/sync-react#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.137",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "ava": "^2.3.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "pouchdb": "^7.1.1",
+    "pouchdb-adapter-memory": "^7.1.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "sleep-promise": "^8.0.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
